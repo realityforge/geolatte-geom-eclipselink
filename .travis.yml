@@ -2,8 +2,9 @@ language: java
 jdk:
   - openjdk7
   - oraclejdk7
-install:
+before_install:
   - gem install bundler
+install:
   - bundle install
   - echo "yes" | sudo apt-add-repository ppa:sharpie/for-science
   - echo "yes" | sudo apt-add-repository ppa:sharpie/postgis-stable
