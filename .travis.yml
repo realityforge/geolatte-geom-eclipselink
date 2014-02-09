@@ -2,10 +2,6 @@ language: java
 jdk:
   - openjdk7
   - oraclejdk7
-rvm:
-  - 1.9.3
-before_install:
-  - gem install bundler
 install:
   - bundle install
   - echo "yes" | sudo apt-add-repository ppa:sharpie/for-science
