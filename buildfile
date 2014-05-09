@@ -1,4 +1,5 @@
 require 'buildr/git_auto_version'
+require 'buildr/gpg'
 
 desc 'Geolatte-Eclipselink Converters'
 define 'geolatte-geom-eclipselink' do
