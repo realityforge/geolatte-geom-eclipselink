@@ -7,3 +7,5 @@ before_install:
 install:
   - bundle install
 script: buildr clean package
+git:
+  depth: 10
