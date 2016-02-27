@@ -1,6 +1,5 @@
 language: java
 jdk:
-
   - oraclejdk7
 before_install:
   - rvm use 1.9.3
