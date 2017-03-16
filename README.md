@@ -3,10 +3,8 @@
 [![Build Status](https://secure.travis-ci.org/realityforge/geolatte-geom-eclipselink.png?branch=master)](http://travis-ci.org/realityforge/geolatte-geom-eclipselink)
 
 [Geolatte](http://www.geolatte.org/) is a small, focused java GIS project. This library adds
-converters for persisting and loading Geolatte types using the Eclipselink jpa provider.
-
-Currently support is restricted to Postgres but it is expected that SQL Server support will
-be added in the near future.
+converters for persisting and loading Geolatte types using the Eclipselink jpa provider and
+either sql server or postgres as the database.
 
 NOTE: This was intended to be used for EE6 variant of elipselink. For EE7 and later versions please use
 the [geolatte-geom-jpa](https://github.com/realityforge/geolatte-geom-jpa) project.
