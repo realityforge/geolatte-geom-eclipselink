@@ -9,6 +9,9 @@ converters for persisting and loading Geolatte types using the Eclipselink jpa p
 Currently support is restricted to Postgres but it is expected that SQL Server support will
 be added in the near future.
 
+NOTE: This was intended to be used for EE6 variant of elipselink. For EE7 and later versions please use
+the [geolatte-geom-jpa](https://github.com/realityforge/geolatte-geom-jpa) project.
+
 Usage
 -----
 
