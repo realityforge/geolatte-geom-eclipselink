@@ -1,5 +1,4 @@
-geolatte-geom-eclipselink
-=========================
+# geolatte-geom-eclipselink
 
 [![Build Status](https://secure.travis-ci.org/realityforge/geolatte-geom-eclipselink.png?branch=master)](http://travis-ci.org/realityforge/geolatte-geom-eclipselink)
 
@@ -12,8 +11,7 @@ be added in the near future.
 NOTE: This was intended to be used for EE6 variant of elipselink. For EE7 and later versions please use
 the [geolatte-geom-jpa](https://github.com/realityforge/geolatte-geom-jpa) project.
 
-Usage
------
+## Usage
 
 The user should be able to use any of the Geolatte spatial types within a persistent entity. The
 user then just needs to specify the session event listener. This can be set using a property in the
